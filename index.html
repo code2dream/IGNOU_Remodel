@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <header>
+
+            <div id="dateDisplay">
+            <script>
+            //Date and Time Display
+              var today = new Date();
+              var date = today.getDate();
+              var monthIndex = today.getMonth();
+              var year = today.getFullYear();
+              var hours = today.getHours();
+              var minutes = today.getMinutes();
+          
+              var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+          
+              var formattedDate = date + ' ' + monthNames[monthIndex] + ' ' + year;
+              var formattedTime = hours + ':' + (minutes < 10 ? '0' : '') + minutes;
+          
+              var dateTime = formattedDate + ' ' + formattedTime;
+          
+              document.getElementById("dateDisplay").innerHTML = dateTime;
+            </script>
+            </div>
+            <div class="language">
+                Select Language
+                <button class="dropdown-button">&#9660;</button>
+
+            </div>
+
+            <div class="logo">
+            <!--Logo-->
+                <a href="https://twitter.com/OfficialIGNOU">
+                    <img class="twitter" src="Images/twitter-logo.png" alt="Twitter Logo">
+                  </a>
+                
+                  
+                  <a  href="https://www.facebook.com/OfficialPageIGNOU/">
+                    <img class="facebook" src="Images/facebook-logo.png" alt="Facebook Logo">
+                  </a>
+            </div>
+
+        </header>
+        <hr>
+
+        <!--Title Section-->
+        <div class="section1">
+            <div class="ignoulogo">
+                <img src="Images/ignoulogo.png" alt="ignoulogo">
+            </div>
+            <div class="search">
+                <h1>INDIRA GANDHI NATIONAL OPEN UNIVERSITY</h1>
+                <div class="search-container">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                  </div>
+            </div>
+            <div class="nac">
+                <img src="Images/naac.png" alt="naclogo">
+            </div>
+
+        </div>
+
+        <!--Navigation bar-->
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About IGNOU <button class="dropdown-button">&#9660;</button></li>
+                <li>Register Online <button class="dropdown-button">&#9660;</button></li>
+                <li>Student Support <button class="dropdown-button">&#9660;</button></li>
+                <li>Regional Network <button class="dropdown-button">&#9660;</button></li>
+                <li>Right to Information</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        
+        <!--SlideShow -->
+        <div class="carousel-container">
+            <div class="carousel-slide">
+              <a href="http://ignou.ac.in/ignou/bulletinboard/news/latest/detail/Fresh_Admission__for_all_programmes_offered_in_ODLOnline_mode_for_the_January_2024_session_-879"><img src="Images/Online_Admission-24.jpg" alt="Image 1"></a>
+              <a href="https://onlinerr.ignou.ac.in/"><img src="Images/RR-Banner.jpg" alt="Image 2"></a>
+              <a href="http://ignou.ac.in/ignou/studentzone/results/1"><img src="Images/banner-5.jpg" alt="Image 3"></a>
+              <a href="http://gd.ignouonline.ac.in/gyandhara/"><img src="Images/Gyandhara_banner.jpg" alt="Image 4"></a>
+            </div>
+            <button class="prev" onclick="moveSlide(0,-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(0,1)">&#10095;</button>
+          </div>
+        
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="Slideshow/convo-1.jpg" alt="Event pics">
+                <img src="Slideshow/convo-2.jpg" alt="Event pics">
+                <img src="Slideshow/convo-3.jpg" alt="Event pics">
+                <img src="Slideshow/convo-4.jpg" alt="Event pics">
+                <img src="Slideshow/convo-5.jpg" alt="Event pics">
+                <img src="Slideshow/convo-6.jpg" alt="Event pics">
+                <img src="Slideshow/convo-7.jpg" alt="Event pics">
+                <img src="Slideshow/fday1.jpg" alt="Event pics">
+                <img src="Slideshow/fday2.jpg" alt="Event pics">
+                <img src="Slideshow/fday3.jpg" alt="Event pics">
+                <img src="Slideshow/fday4.jpg" alt="Event pics">
+                <img src="Slideshow/fday5.jpg" alt="Event pics">
+                <img src="Slideshow/fday6.jpg" alt="Event pics">
+                <img src="Slideshow/fday7.jpg" alt="Event pics">
+                <img src="Slideshow/fday8.jpg" alt="Event pics">
+            </div>
+            <button class="prev" onclick="moveSlide(1, -1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1, 1)">&#10095;</button>
+        </div>
+        <script src="script.js"></script>
+
+
+    </body>
+
+
+</html>

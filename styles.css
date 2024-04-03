@@ -1,0 +1,47 @@
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+  }
+  
+  .carousel-slide {
+    display: flex;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    display: none;
+  }
+  
+  .carousel-slide img:first-child {
+    display: block;
+  }
+  
+  button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  button.prev {
+    left: 0;
+  }
+  
+  button.next {
+    right: 0;
+  }
+  
+  /* Added: Ensure both carousels remain visible */
+  .carousel-container:first-child {
+    margin-right: 20px;
+  }
+  

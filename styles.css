@@ -3,10 +3,11 @@
   margin: 0 auto;
   overflow: hidden;
   vertical-align: top;
-  height: 800px;
+  height: 260px;
   width: 67%;
   margin-right: 10px;
   float: left;
+  
 }
 
 .carousel-container2 {
@@ -15,7 +16,7 @@
   margin: 0 auto;
   overflow: hidden;
   vertical-align: top;
-  height: 500px;
+  height: 260px;
   width: 32%;
   float: right;
 }
@@ -29,6 +30,7 @@
 .carousel-slide img {
   width: 100%;
   display: none;
+  margin-bottom: 0px;
 }
 
 .carousel-slide img:first-child {
@@ -44,12 +46,22 @@ button.next {
   border: none;
   cursor: pointer;
   padding: 10px;
+  transform: translateY(-50%);
+}
+
+.carousel-container2 button.prev{
+  top: 50%;
+}
+
+.carousel-container2 button.next{
+  top: 50%;
 }
 
 button.prev {
-  left: 0;
+  left: 0px;
 }
 
+
 button.next {
-  right: 0;
+  right: 0px;
 }

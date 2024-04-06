@@ -1,47 +1,55 @@
-.carousel-container {
-    position: relative;
-    max-width: 600px;
-    margin: 0 auto;
-    overflow: hidden;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
-  }
-  
-  .carousel-slide {
-    display: flex;
-  }
-  
-  .carousel-slide img {
-    width: 100%;
-    display: none;
-  }
-  
-  .carousel-slide img:first-child {
-    display: block;
-  }
-  
-  button.prev, button.next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-  }
-  
-  button.prev {
-    left: 0;
-  }
-  
-  button.next {
-    right: 0;
-  }
-  
-  /* Added: Ensure both carousels remain visible */
-  .carousel-container:first-child {
-    margin-right: 20px;
-  }
-  
+.carousel-container1 {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  vertical-align: top;
+  height: 800px;
+  width: 67%;
+  margin-right: 10px;
+  float: left;
+}
+
+.carousel-container2 {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  vertical-align: top;
+  height: 500px;
+  width: 32%;
+  float: right;
+}
+
+.carousel-slide {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-slide img {
+  width: 100%;
+  display: none;
+}
+
+.carousel-slide img:first-child {
+  display: block;
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button.prev {
+  left: 0;
+}
+
+button.next {
+  right: 0;
+}

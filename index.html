@@ -179,17 +179,8 @@
         <div class="section-21">
             <h2 id="feature-head">Study At IGNOU</h2>
             <hr>
-            <div id="feature-list">
-                <ul>
-                    <li>Flexible Admission Rules
-                    <li>Individualised Study Flexibility in Terms of Place, Pace & Duration</li>
-                    <li>Nationwide Student Support Services Network</li>
-                </ul>
-                <ul>
-                    <li>Cost Effective Programmes</li>
-                    <li>Resource Sharing, Collaboration & Networking with other Universities</li>
-                    <li>Programmes Based on Students Need Analysis</li>
-                </ul>
+            <div class="feature-list">
+                <img src="Images/Features.png" alt="feature-list">
             </div>
 
         </div>
@@ -200,6 +191,27 @@
                     <li><img src="Images/calender-icon.png" alt="helpdesk" onclick=""></li>
                 </ul>
             </nav>
+
+            <form class="enrollment-form">
+                <div>
+                  <label for="enrollmentNo">Enrollment Number:</label>
+                  <input type="text" id="enrollmentNo" placeholder="Enter Enrollment No">
+                </div>
+                <div>
+                  <label for="programme">Programme:</label>
+                  <select id="programme">
+                    <option value="">Select Programme</option>
+                    <option value="1">Programme 1</option>
+                    <option value="2">Programme 2</option>
+                    <option value="3">Programme 3</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="dob">Date Of Birth:</label>
+                  <input type="text" id="dob" placeholder="DD/MM/YYYY">
+                </div>
+                <button type="button" onclick="checkStatus()">Check Status</button>
+              </form>
 
         </div>
 

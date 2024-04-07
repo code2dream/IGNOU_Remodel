@@ -1,10 +1,9 @@
 const bubbleLinks = document.querySelectorAll('.bubble-link');
 const bubbleLinksContainer = document.querySelector('.bubble-links-container');
 const numLinks = bubbleLinks.length;
-const numVisible = 5; // Number of links to show at a time
+const numVisible = 5;
 let index = 0;
 
-// Event listeners for hover effect on bubble links
 bubbleLinks.forEach(link => {
   link.addEventListener('mouseenter', () => {
     link.style.backgroundColor = '#e0e0e0';

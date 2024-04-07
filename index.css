@@ -117,34 +117,63 @@ nav ul{
   color: #2082bc;
 }
 
-.bubble-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+.bubble-slider {
+  position: relative;
+  overflow: hidden;
 }
 
+.bubble-links-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.bubble-links {
+  display: flex;
+  justify-content: flex-start; /* Adjusted to align links to the start of the container */
+  align-items: center;
+  gap: 5px; /* Space between links */
+  overflow: hidden; /* Hide overflow to create the sliding effect */
+  width: 100%; /* Ensure the container takes full width */
+}
+
+
 .bubble-link {
+  flex: 0 0 18%; /* Adjust as needed */
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  border-radius: 20px;
+  border-radius: 40px;
   padding: 10px 15px;
   text-decoration: none;
   color: #333;
-  transition: background-color 0.3s ease;
+  margin: 0 5px; /* Add margin between bubble links */
 }
 
-.bubble-link:hover {
-  background-color: #e0e0e0;
+#prevButton,
+#nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
 }
 
-.icon {
-  font-size: 16px;
-  margin-right: 5px;
+#prevButton {
+  left: 10px;
 }
 
-.text {
-  font-size: 14px;
+#nextButton {
+  right: 10px;
 }
+
+
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2082bc;
+  display: flex
+}
+

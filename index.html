@@ -7,17 +7,14 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="alert.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/sites/all/themes/bluewater/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/sites/all/themes/bluewater/css/style.10.css" />
-    <link rel="stylesheet" type="text/css" href="/sites/all/themes/bluewater/css/responsive.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js" type="text/javascript"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
    
 </head>
 <body>
+    <!--HEADER-->
     <header>
+        <!--DATE & TIME-->
         <div id="dateDisplay"></div>
 
         <script>
@@ -38,17 +35,15 @@
 
             document.getElementById("dateDisplay").innerHTML = dateTime;
         </script>
-
-        <div class="language">
-            Select Language
-            <button class="dropdown-button">&#9660;</button>
-        </div>
+        <!--SOCIAL MEDIA LINKS-->
         <div class="logo">
             <a href="https://twitter.com/OfficialIGNOU"><img class="twitter" src="Images/twitter-logo.png" alt="Twitter Logo"></a>
             <a href="https://www.facebook.com/OfficialPageIGNOU/"><img class="facebook" src="Images/facebook-logo.png" alt="Facebook Logo"></a>
         </div>
     </header>
     <hr>
+
+    <!--TITLE SECTION-->
     <div class="section1">
         <div class="ignoulogo">
             <img src="Images/ignoulogo.png" alt="ignoulogo">
@@ -64,6 +59,8 @@
             <img src="Images/naac.png" alt="naclogo">
         </div>
     </div>
+
+    <!--NAVIGATION BAR-->
     <nav>
         <ul>
             <li>Home</li>
@@ -75,6 +72,8 @@
             <li>Contact Us</li>
         </ul>
     </nav>
+
+    <!--IMAGE SLIDESHOW-->
     <div class="carousel-container1">
         <div class="carousel-slide">
             <a href="http://ignou.ac.in/ignou/bulletinboard/news/latest/detail/Fresh_Admission__for_all_programmes_offered_in_ODLOnline_mode_for_the_January_2024_session_-879"><img src="Images/Online_Admission-24.jpg" alt="Image 1"></a>
@@ -124,7 +123,11 @@
             });
         };
     </script>
+
+    <!--MOVING TEXT-->
     <div class="marquee-text"><marquee behavior="scroll" direction="left">IGNOU has been awarded A++ Grade by the NAAC 2021  || www.ignou.ac.in and its subdomains are the only authentic sources of Information of IGNOU</marquee></div>
+    
+    <!--BUBBLE LINKS-->
     <div class="bubble-links">
         <div class="bubble-slider">
             <button id="prevButton">&#10094;</button>
@@ -169,6 +172,57 @@
         </div>
         </div>
     <script src="bubble.js"></script>
+
+
+    <!--ALERTS-->
+    <div class="alert">
+        <a href="https://onlineproject.ignou.ac.in/projectjun24/">
+        <div class="p1"><br>Online submission of Project/Dissertation/Field Work Journals/Internship Reports for June, 2024 TEE
+        <button class="flip-text">NEW </button></div>
+        </a>
+        <a href="http://onlinerr.ignou.ac.in/">
+        <div class="p2"><br>Last date for Re-registration for programmes offered in ODL/Online mode for January 2024 session has been extended with late fees of Rs.500 till 31st March 2024
+        <button class="flip-text">NEW </button></div></a>
+        </div>
+    <!--alert2 last two para-->
+    <div class="alert2">
+        <a href="https://exam.ignou.ac.in/">
+        <div class="p3">Online Examination Form for the Term-end Examination, June, 2024 without late fee has been extendes till 22nd, April 2024 for ODL & OL(Online)
+        <button class="flip-text">NEW </button></div></a>
+        <a href="http://ignou.ac.in/ignou/bulletinboard/news/latest/detail/Result_of_Entrance_Test_of_PhD_BEd__BSCNPB_of_the_Session_January_2024-880">
+        <div class="p4">Result of Entrance Test of Phd/BEd/BSCN(PB) of the Session January 2024
+        <button class="flip-text">NEW </button></div></a>
+    </div>
+    <!--bottom of the page-->
+    <div class="bottomdiv">
+        <!--network image code-->
+        <div class="network">
+        <a href="http://ignou.ac.in/ignou/aboutignou/regional/map"><img src="Images/unnamed.jpeg" alt="networks"></a>
+        </div>
+        <!--List-->
+        
+        <div class="list">
+            <p class="news">News and Announcements<p></p>
+            <ul class="news-list">
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/IGNOU-Research_Fellowship_Notification_for_July_2022_BatchNew-2942">IGNOU-Research Fellowship Notification for July, 2022 Batch(New)</a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Last_date_for_submission_of_assignment_has_been_extended_upto_30th_April_-2941">Last date for submission of assignment has been extended upto 30th April</a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Results_of_Screening_of_Applications_for_the_post_of_Professor_Associate_Professor_Assistant_Professor_and_ARD_advertised_by_IGNOU_vide_Advertisement_No_022022ACD_and_012023ACD_-2933"><b>Results of Screening of Applications for the post of Professor, Associate Professor, Assistant Professor and ARD advertised by IGNOU vide Advertisement No.02/2022/ACD and 01/2023/ACD</b></a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Applications_for_76th_House_Allotment_Committee_2024-2939">Applications for 76th House Allotment Committee 2024</a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Organising_the_Badminton_Womens_matches-2940">Organising the Badminton Womens matches</a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/_Last_date_extended_of_form_submission_till_31st_March_2024_for_the_IGNOU_SCDS_Recruitment_2024-2936"><span style="color: red;">Last date extended of form submission till 31st March 2024 for the IGNOU SCDS Recruitment 2024</span></a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Interview_schedule_of_PhD_for_July_2023_PhD_admission-2932">Interview schedule of PhD for July 2023 PhD admission</a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Scheme_of_fee_support_to_IGNOU_students_belonging_to_SCST_categories_for_the_January_2024-2934">Scheme of fee support to IGNOU students belonging to SC/ST categories for the January 2024</a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/UGC_Approved_6-day_Short_Term_Programme_Design_and_Development_of_e-Content_for_Online_Learning_and_MOOCs_from_22-27_April_2024-2935">UGC Approved 6-day Short Term Programme: Design and Development of e-Content for Online Learning and MOOCs from 22-27 April, 2024</a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Public_advisory_by_Student_Evaluation_Division-2928"><span style="color: red;">Public advisory by Student Evaluation Division</span></a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Public_Notice__Fraudulent_Activities_in_the_name_of_IGNOU-2926"><span style="color: red;">Public Notice : Fraudulent Activities in the name of IGNOU</span></a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Notification_for_fixture_of_cricket_matches_in_SUPER_6_Stages_at_IGNOU-2927"><b>Notification for fixture of cricket matches in SUPER 6 Stages at IGNOU</a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Google_Drive_Links_of_the_Photographs_of_the_Students_37th_Convocation_Ceremony_held_on_20th_Feb_2024_-2924">Google Drive Links of the Photographs of the Students (37th Convocation Ceremony held on 20th Feb, 2024)</a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Notification_regarding_Sports_Activities_at_IGNOU-2925">Notification regarding Sports Activities at IGNOU</a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest/detail/Profile_of_37th_Convocation_of_IGNOU-2922">Profile of 37th Convocation of IGNOU</a></li>
+                <li><a href="http://ignou.ac.in/ignou/bulletinboard/announcements/latest">More...</a></b></li>
+            </ul>
+        </div>
+    </div>
       
 </body>
 </html>

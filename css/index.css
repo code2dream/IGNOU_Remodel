@@ -17,10 +17,6 @@ header {
     align-items: left;
 }
 
-.language{
-    text-align: center;
-}
-
 .logo{
     display: flex;
     margin-bottom: 15px;
@@ -97,7 +93,7 @@ header {
   padding-left: 5px;
 }
 
-nav{
+.nav-main{
   background-color: #2082bc;
   height: 40px;
   padding: 10px;
@@ -105,7 +101,7 @@ nav{
   color: #ffffff;
 }
 
-nav ul{
+.nav-main ul{
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -177,3 +173,144 @@ nav ul{
   display: flex
 }
 
+
+.section-2{
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.section-21{
+  max-width: 50%;
+  width: 50%;
+  padding: 5px;
+
+}
+
+.section-21 hr{
+  color: rgb(206, 150, 29);
+}
+
+.section-22{
+  max-width: 50%;
+  width: 50%;
+  background-color: #f0f0f1;
+}
+
+#feature-list{
+  display: flex;
+  font-size: small;
+}
+
+.nav-help{
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  height: 45px;
+}
+
+.nav-help ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+
+}
+
+.nav-help img{
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 4px;
+}
+.nav-help img:hover{
+  background-color: #2082bc;
+  border-radius: 5px;
+}
+
+.feature-list li{
+  padding: 20px;
+  margin: 5px;
+
+}
+#feature-head{
+  margin-left: 2px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.feature img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.enrollment {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.enrollment h2 {
+  margin-top: 0;
+}
+
+.enrollment-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enrollment-form div {
+  margin-right: 10px;
+}
+
+.enrollment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.enrollment-form input,
+.enrollment-form select {
+  padding: 5px;
+}
+
+.enrollment-form button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+footer{
+  background-color: #2082bc;
+}

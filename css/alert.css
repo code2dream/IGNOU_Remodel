@@ -15,9 +15,18 @@
     margin-right: 10%;
 }
 
-a{
+.alert a{
     text-decoration: none;
 }
+
+.alert2 a{
+    text-decoration: none;
+}
+
+.bottomdiv a{
+    text-decoration: none;
+}
+
 .flip-text {
     font-size: 12px;
     font-weight: bold;

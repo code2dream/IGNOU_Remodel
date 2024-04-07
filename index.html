@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="alert.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/alert.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
    
 </head>
@@ -61,7 +61,7 @@
     </div>
 
     <!--NAVIGATION BAR-->
-    <nav>
+    <nav class="nav-main">
         <ul>
             <li>Home</li>
             <li>About IGNOU <button class="dropdown-button">&#9660;</button></li>
@@ -105,7 +105,7 @@
         <button class="prev" onclick="moveSlide(1, -1)">&#10094;</button>
         <button class="next" onclick="moveSlide(1, 1)">&#10095;</button>
     </div>
-    <script src="script.js"></script>
+    <script src="javascript/slideshow.js"></script>
     <script>
         window.onload = function() {
             const slideshows = document.querySelectorAll('.carousel-slide');
@@ -171,7 +171,40 @@
             <button id="nextButton">&#10095;</button>
         </div>
         </div>
-    <script src="bubble.js"></script>
+    <script src="javascript/bubble.js"></script>
+    <p></p>
+
+    <!--(STUDY AT IGNOU) AND (ENROLLED STUDENTS + HELPDESK)-->
+    <div class="section-2">
+        <div class="section-21">
+            <h2 id="feature-head">Study At IGNOU</h2>
+            <hr>
+            <div id="feature-list">
+                <ul>
+                    <li>Flexible Admission Rules
+                    <li>Individualised Study Flexibility in Terms of Place, Pace & Duration</li>
+                    <li>Nationwide Student Support Services Network</li>
+                </ul>
+                <ul>
+                    <li>Cost Effective Programmes</li>
+                    <li>Resource Sharing, Collaboration & Networking with other Universities</li>
+                    <li>Programmes Based on Students Need Analysis</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="section-22">
+            <nav class="nav-help">
+                <ul>
+                    <li><img src="Images/user-icon.png" alt="user" onclick=""></li>
+                    <li><img src="Images/calender-icon.png" alt="helpdesk" onclick=""></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </div>
+
 
 
     <!--ALERTS-->
@@ -183,7 +216,7 @@
         <a href="http://onlinerr.ignou.ac.in/">
         <div class="p2"><br>Last date for Re-registration for programmes offered in ODL/Online mode for January 2024 session has been extended with late fees of Rs.500 till 31st March 2024
         <button class="flip-text">NEW </button></div></a>
-        </div>
+    </div>
     <!--alert2 last two para-->
     <div class="alert2">
         <a href="https://exam.ignou.ac.in/">
@@ -197,7 +230,7 @@
     <div class="bottomdiv">
         <!--network image code-->
         <div class="network">
-        <a href="http://ignou.ac.in/ignou/aboutignou/regional/map"><img src="Images/unnamed.jpeg" alt="networks"></a>
+            <a href="http://ignou.ac.in/ignou/aboutignou/regional/map"><img src="Images/unnamed.jpeg" alt="networks"></a>
         </div>
         <!--List-->
         
@@ -223,6 +256,10 @@
             </ul>
         </div>
     </div>
+
+    <footer>
+        
+    </footer>
       
 </body>
 </html>

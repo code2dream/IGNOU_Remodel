@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study at IGNOU</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Study at IGNOU</h1>
+    <div class="features">
+      <div class="feature">
+        <img src="flexible-icon.png" alt="Flexible Admission Rules">
+        <span>Flexible Admission Rules</span>
+      </div>
+      <div class="feature">
+        <img src="individualized-icon.png" alt="Individualised Study Flexibility">
+        <span>Individualised Study Flexibility in Terms of Place, Pace & Duration</span>
+      </div>
+      <div class="feature">
+        <img src="support-icon.png" alt="Nationwide Student Support Services Network">
+        <span>Nationwide Student Support Services Network</span>
+      </div>
+      <div class="feature">
+        <img src="cost-effective-icon.png" alt="Cost Effective Programmes">
+        <span>Cost Effective Programmes</span>
+      </div>
+      <div class="feature">
+        <img src="collaboration-icon.png" alt="Resource Sharing, Collaboration & Networking">
+        <span>Resource Sharing, Collaboration & Networking with other Universities</span>
+      </div>
+      <div class="feature">
+        <img src="need-analysis-icon.png" alt="Programmes Based on Students Need Analysis">
+        <span>Programmes Based on Students Need Analysis</span>
+      </div>
+    </div>
+    <div class="enrollment">
+      <h2>Enrolled Students</h2>
+      <form class="enrollment-form">
+        <div>
+          <label for="enrollmentNo">ENROLLMENT NUMBER:</label>
+          <input type="text" id="enrollmentNo" placeholder="Enter Enrollment No">
+        </div>
+        <div>
+          <label for="programme">PROGRAMME:</label>
+          <select id="programme">
+            <option value="">Select Programme</option>
+            <option value="1">Programme 1</option>
+            <option value="2">Programme 2</option>
+            <option value="3">Programme 3</option>
+          </select>
+        </div>
+        <div>
+          <label for="dob">DATE OF BIRTH:</label>
+          <input type="text" id="dob" placeholder="mm/dd/yyyy">
+        </div>
+        <button type="button" onclick="checkStatus()">Check Status</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

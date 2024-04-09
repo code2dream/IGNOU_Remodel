@@ -1,0 +1,95 @@
+/* Import a font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%; /* Change to 100% to cover the whole page */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-height: 70px; /* Increase size */
+}
+
+.title-container {
+  display: flex; /* New: Display as flex */
+  align-items: center;
+}
+
+.title-box {
+  background-color: #f2f2f2; /* Lighter shade of grey */
+  color: #800000;
+  font-weight: bold;
+  padding: 8px 16px; /* Adjusted padding */
+  border-radius: 5px;
+  margin: 10px auto 30px; /* Decreased margin */
+
+  text-align: center; /* Center text */
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.title-box h1 {
+  font-size: 30px; /* Increase font size */
+  color: #800000; /* Maroon color */
+  margin: 0;
+}
+
+.naac-logo {
+  max-height: 85px; /* Increase size */
+}
+
+.status {
+  font-size: 18px; /* Increase font size */
+  color: black; /* Black color */
+  font-weight: bold; /* Bold */
+  margin-bottom: 20px;
+}
+
+.result-text {
+  font-size: 20px; /* Increase font size */
+  color: red; /* Red color */
+  font-weight: bold; /* Bold */
+}
+
+.button-container {
+  text-align: left; /* Align to the left */
+  margin-bottom: 20px;
+}
+
+.back-btn {
+  background-color: #87ceeb; /* Bright sky blue color */
+  color: #000; /* Black text color */
+  border: none;
+  padding: 10px 20px; /* Reduced padding */
+  border-radius: 3px; /* Increase border-radius */
+  cursor: pointer;
+  font-size: 15px; /* Increase font size */
+  font-weight: bold; /* Bold */
+  position: absolute;
+  top: 45%;
+  right: 2.5%; /* Adjusted position */
+  transform: translateY(-50%);
+  text-decoration: none; /* Remove underline */
+}
